@@ -95,6 +95,7 @@ public class MySecondTask {
             System.out.println("Самый длинный элемент: "+mostLongestStr());
         }
         else{
+            scanner.close();
             System.out.println("Неверно выбрана задача..");
         }
     }
