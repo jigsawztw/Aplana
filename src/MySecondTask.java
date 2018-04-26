@@ -4,7 +4,7 @@ import java.io.IOException;
 /**
  * @author Osipov Ivan, student
  */
-public class MySecondProject {
+public class MySecondTask {
     public static int task_number;       //номер задачи
     public static float a,b,result;     //Первое число, второе число, результат.
     public static String operation;     // Название операции.
