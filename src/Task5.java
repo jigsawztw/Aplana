@@ -4,7 +4,7 @@ import  java.util.Random;
 /**
  * @author Osipov Ivan, student
  */
-public class Task4 {
+public class Task5 {
     public static float weightOfGift; //общий вес
     public static double costOfGift;  //общая стоимость
 

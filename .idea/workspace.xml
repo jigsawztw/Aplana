@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Task4.java" line="110" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/src/Task4.java" />
+    <bookmark url="file://$PROJECT_DIR$/src/Task5.java" line="110" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/Task5.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30cbfa8f-58ed-42b6-a951-9ed2a9507f6c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Task4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/secondprojectaplana/MySecondTask.class" afterPath="$PROJECT_DIR$/out/production/secondprojectaplana/MySecondTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Task4.java" afterPath="$PROJECT_DIR$/src/Task5.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,10 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task4.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Task4.java">
+      <file leaf-file-name="Task5.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Task5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
+            <state relative-caret-position="756">
               <caret line="96" column="103" lean-forward="false" selection-start-line="96" selection-start-column="103" selection-end-line="96" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -93,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/MyFirstTask.java" />
         <option value="$PROJECT_DIR$/src/MySecondTask.java" />
         <option value="$PROJECT_DIR$/src/Task4.java" />
+        <option value="$PROJECT_DIR$/src/Task5.java" />
       </list>
     </option>
   </component>
@@ -157,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task4">
+  <component name="RunManager" selected="Application.Task5">
     <configuration name="MyFirstTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MyFirstTask" />
@@ -186,9 +186,9 @@
       <module name="secondprojectaplana" />
       <envs />
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task5" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -284,11 +284,11 @@
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.MySecondTask" />
       <item index="1" class="java.lang.String" itemvalue="Application.MyFirstTask" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Task4" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Task5" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Task4" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Task5" />
         <item index="1" class="java.lang.String" itemvalue="Application.MySecondTask" />
         <item index="2" class="java.lang.String" itemvalue="Application.MyFirstTask" />
       </list>
@@ -309,7 +309,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="3" width="1905" height="1033" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -321,9 +320,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25527313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -391,9 +390,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task4.java">
+    <entry file="file://$PROJECT_DIR$/src/Task5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
+        <state relative-caret-position="756">
           <caret line="96" column="103" lean-forward="false" selection-start-line="96" selection-start-column="103" selection-end-line="96" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
