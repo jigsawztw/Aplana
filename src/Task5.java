@@ -5,24 +5,37 @@ import  java.util.Random;
  * @author Osipov Ivan, student
  */
 public class Task5 {
-    public static float weightOfGift; //общий вес
-    public static double costOfGift;  //общая стоимость
+    public static class Gift {
+        ArrayList<PartOfGift> listOfCandys = new ArrayList<>();//список сладостей в подарке
+        public float weightOfGift; //общий вес
+        public double costOfGift; //общая стоимость
 
-    /**
-     * Method, which return weight of the gift.
-     * @return weightOfGift;
-     */
-    public static String getWeightOfGift() {
-        return "Общий вес подарка составляет: "+ weightOfGift+" грамм";
+        public Gift(){
+
+        }
+       public void addToGift(PartOfGift x){
+           listOfCandys.add(x);
+           this.weightOfGift = weightOfGift + x.weight;
+           this.costOfGift = costOfGift + x.cost$;
+       }
+        /**
+         * Method, which return weight of the gift.
+         * @return weightOfGift;
+         */
+        public String getWeightOfGift() {
+            return "Общий вес подарка составляет: "+ this.weightOfGift+" грамм";
+        }
+
+        /**
+         * Method, which return costing of the gift.
+         * @return costOfGift;
+         */
+        public  String getCostOfGift() {
+            return "Общая стоимость подарка составляет: "+ this.costOfGift+"$";
+        }
     }
 
-    /**
-     * Method, which return costing of the gift.
-     * @return costOfGift;
-     */
-    public static String getCostOfGift() {
-        return "Общая стоимость подарка составляет: "+ costOfGift+"$";
-    }
+
 
     /***
      * Часть подарка/сладость.
@@ -36,8 +49,6 @@ public class Task5 {
             }
 
             public PartOfGift(float weight,double cost$, String specialProp){   //конструктор с параметрами
-                weightOfGift = weightOfGift +weight;
-                costOfGift = costOfGift+cost$;
                 this.weight = weight;
                 this.cost$=cost$;
                 this.specialProp=specialProp;
@@ -105,36 +116,22 @@ public class Task5 {
     public static void main(String[] args) {
         //1 вариант: Заполняем подарок в ручную
 
-        ArrayList<PartOfGift> podarok = new ArrayList<>();
-         PartOfGift first = new Jelly(100,2,"Вкусный малиновый мармелад");
-        PartOfGift second = new Gum(40,1,"Тянущаяся фруктовая жвачка");
-        PartOfGift third = new Lollipop(25,0.5,"Вредный для зубов леденец");
-        PartOfGift fourth = new Candy(120,1.8,"Конфеты в глазури с карамельной начинкой");
-        PartOfGift fifth = new Chocolate(220,5,"Плитка белого бельгийского щоколада с орехами");
-        podarok.add(first);
-        podarok.add(second);
-        podarok.add(third);
-        podarok.add(fourth);
-        podarok.add(fifth);
+        Gift firstGift = new Gift();
+        firstGift.addToGift(new Jelly(100,2,"Вкусный малиновый мармелад"));
+        firstGift.addToGift(new Gum(40,1,"Тянущаяся фруктовая жвачка"));
+        firstGift.addToGift(new Candy(120,1.8,"Конфеты в глазури с карамельной начинкой"));
+        firstGift.addToGift(new Lollipop(25,0.5,"Вредный для зубов леденец"));
+        firstGift.addToGift(new Chocolate(220,5,"Плитка белого бельгийского щоколада с орехами"));
 
 
-        //2 вариант: Заполняем подарок рандомно
-        Random random =  new Random();
-        for(int i=0;i<5;i++){                //в цикле из пяти итераций, в зависимости от значений полученных рандомно, создаем объекты сладостей и добавляем в подарок.
-            switch(random.nextInt(5)+1){
-                case (1): podarok.add(new Jelly(100,2,"Вкусный малиновый мармелад")); continue;
-                case (2): podarok.add(new Gum(40,1,"Тянущаяся фруктовая жвачка")); continue;
-                case (3): podarok.add(new Lollipop(25,0.5,"Вредный для зубов леденец")); continue;
-                case (4): podarok.add(new Candy(120,1.8,"Конфеты в глазури с карамельной начинкой")); continue;
-                case (5): podarok.add(new Chocolate(220,5,"Плитка белого бельгийского щоколада с орехами")); continue;
-            }
-        }
         //пробегаем по каждой сладости в подарке и выводим информацию о каждой конкретной
-        for(PartOfGift x: podarok){
-            System.out.println(x.toString());
+        for(PartOfGift x: firstGift.listOfCandys){
+            System.out.println(x);
         }
-        //общая стоимость и вес подарка
-        System.out.println(getWeightOfGift()+"\n"+getCostOfGift());
+        //выводим общую стоимость и вес подарка
+        System.out.println(firstGift.getWeightOfGift());
+        System.out.println(firstGift.getCostOfGift());
+
 
     }
 }
