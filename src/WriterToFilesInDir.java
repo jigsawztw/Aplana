@@ -16,6 +16,8 @@ public class WriterToFilesInDir {
                             FileWriter writer = new FileWriter(item, true);
                             BufferedWriter bufferWriter = new BufferedWriter(writer);
                             bufferWriter.write("L");
+                            bufferWriter.close();
+                            writer.close();
                         }
                     }
                 }
